@@ -1,0 +1,44 @@
+# All these assets will be created in assets.cpp, which CMake will
+# link automagically.
+# References can be picked up by including assets.hpp
+
+assets.cpp:
+  assets/eternal-horror.png:
+    name: asset_eternal_horror
+  assets/screens.bmp:
+     name: asset_screens
+     type: image/image
+     packed: false
+  assets/hand.bmp:
+     name: asset_hand
+     type: image/image
+     packed: false
+     transparent: 152,0,136
+  assets/sprites.bmp:
+     name: asset_sprites
+     type: image/image
+     packed: false
+     transparent: 152,0,136
+  assets/textures.bmp:
+     name: asset_textures
+     type: image/image
+     packed: false
+  assets/music1.mp3:
+    name: asset_music1
+    type: raw/binary
+  assets/music2.mp3:
+    name: asset_music2
+    type: raw/binary
+  assets/level1.map:
+    name: asset_level1
+    type: raw/binary
+  assets/level2.map:
+    name: asset_level2
+    type: raw/binary
+  assets/level3.map:
+    name: asset_level3
+    type: raw/binary
+  assets/level4.map:
+    name: asset_level4
+    type: raw/binary
+

@@ -1,0 +1,10 @@
+title: Eternal Horror 
+description: Survival horror shooter game 
+author: anarkavre 
+splash:
+  file: assets/eternal-horror.png
+icon:
+  file: assets/eternal-horror-icon.png
+version: v1.0.0
+category: game # game, demo, utility, ...
+url: https://anarkavre.itch.io/eternal-horror 
